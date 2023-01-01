@@ -92,6 +92,20 @@ footer {
 
 }
 
+#reset {
+    margin-left: 0.8rem;
+    padding: 4px 12px;
+    border-radius: 5px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    font-weight: 500;
+}
+
+#reset:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
 @media only screen and (max-width: 800px) {
 
     .game-container {
